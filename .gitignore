@@ -1,0 +1,136 @@
+# Build artifacts and executables
+*.tar.gz
+*.exe
+*.o
+*.a
+*.lo
+*.la
+*.pb.cc
+*.pb.h
+*.qm
+.deps
+.dirstamp
+.libs
+*.dll
+*.so
+*.dylib
+
+depends/built
+depends/sources
+depends/x86_64-w64-mingw32
+
+# Binary outputs
+src/craftcoin
+src/craftcoind
+src/craftcoin-cli
+src/craftcoin-tx
+src/qt/test/test_craftcoin-qt
+src/test/test_craftcoin
+src/test/test_craftcoin_fuzzy
+src/bench/bench_craftcoin
+
+# Build system
+Makefile.in
+aclocal.m4
+autom4te.cache/
+build-aux/
+config.log
+config.status
+configure
+libtool
+*.pc
+
+# Generated files
+src/config/bitcoin-config.h
+src/config/bitcoin-config.h.in
+src/config/stamp-h1
+src/univalue/gen
+src/qt/*.moc
+src/qt/moc_*.cpp
+src/qt/forms/ui_*.h
+qrc_*.cpp
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*~
+*.bak
+*.orig
+*.iml
+*.iws
+*.o-*
+*.patch
+*.a
+*.pb.cc
+*.pb.h
+
+*.log
+*.trs
+*.dmg
+
+*.json.h
+*.raw.h
+
+#libtool object files
+*.lo
+*.la
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+luckycoin-qt
+luckycoin-qt
+Bitcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+luckycoin-qt_test
+luckycoin-qt_test
+src/test/buildenv.py
+
+# Resources cpp
+qrc_*.cpp
+
+# Mac specific
+.DS_Store
+build
+
+#lcov
+*.gcno
+*.gcda
+/*.info
+test_bitcoin.coverage/
+total.coverage/
+coverage_percent.txt
+
+#build tests
+linux-coverage-build
+linux-build
+win32-build
+qa/pull-tester/tests_config.py
+qa/cache/*
+
+!src/leveldb*/Makefile
+
+/doc/doxygen/
+
+libbitcoinconsensus.pc
+contrib/devtools/split-debug.sh
+
+.idea/
+.vscode/*
+
+# Snapcraft
+parts/
+prime/
+stage/
+*.snap
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+src/craftcoin-cli
+src/craftcoin-cli

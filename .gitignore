@@ -78,7 +78,6 @@ qrc_*.cpp
 
 # Compilation and Qt preprocessor part
 *.qm
-Makefile
 luckycoin-qt
 luckycoin-qt
 Bitcoin-Qt.app
